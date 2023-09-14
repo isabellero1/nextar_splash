@@ -67,7 +67,7 @@ export default function Home() {
             
           </div>
 
-          <AnimatedText text="Demo"/>
+          <AnimatedText text="Features"/>
 
           <div id="demo" className='flex bg-secondary items-center text-dark w-full '>
           <Layout>
