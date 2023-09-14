@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Andrew from "../../public/images/profile/Andrew.png"
 import Amulya from '../../public/images/profile/Amulya.png'
 import Julia from '../../public/images/profile/Julia.png'
