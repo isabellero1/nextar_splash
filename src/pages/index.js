@@ -14,6 +14,7 @@ import { useRouter} from 'next/router'
 import Link from 'next/link'
 import { LogoIcon } from '@/components/Icon'
 import { theme } from '../../tailwind.config'
+import sshot from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/spelb.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -54,7 +55,7 @@ export default function Home() {
             <Layout>
               <div className = "flex items-center justify-between w-full">
                 <div>
-                  Add ScreenShot/GIF of Application here!!!
+                <Image src= {sshot} className='w-45 h-25'/>
                 </div>
                 <div className='w-1/2 flex flex-col items-center self-center text-center'>
                   <AnimatedText text="{ Nextar }" className='!text-center'/>
@@ -78,7 +79,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  Add ScreenShot/GIF of Application here!!!
+                <Image src= {sshot} className='w-1280 h-720'/>
                 </div>
               </div>
             </Layout>
@@ -87,7 +88,7 @@ export default function Home() {
           <Layout>
               <div className = "text-dark flex items-center justify-between w-full">
                 <div>
-                  Add ScreenShot/GIF of Application here!!!
+                <Image src= {sshot} className='w-1280 h-720'/>
                 </div>
                 <div className='w-1/2 flex flex-col items-center self-center text-center'>
                   <h2 className='text-bold text-xl'>Search Engine Optimization</h2>

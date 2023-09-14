@@ -6,10 +6,14 @@ import Julia from '../../public/images/profile/Julia.png'
 import Isabelle from '../../public/images/profile/Isabelle.png'
 import nextar from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/nextar-logo-black.png'
 import { GithubIcon,LinkedInIcon } from './Icon'
-
+import beeAnd from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/beedrew.png'
+import beeAm from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/beemulya.png'
+import beesa from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/beesabelle.png'
+import beeulia from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/beeulia.png'
+import and2 from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/Screenshot 2023-09-14 at 2.10.37 PM.png'
 
 const normal = [Andrew,Amulya,Isabelle,Julia]
-const bee = [nextar,nextar,nextar,nextar]
+const bee = [and2,beeAm,beesa,beeulia]
 
 
 const Profile = ({theme}) => {
