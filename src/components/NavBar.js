@@ -37,8 +37,8 @@ const NavBar = () => {
         <nav className='sticky z-1000 bg-neutral top-0 relative py-5 w-full px-32 font-medium flex items-center justify-between'>
             <div className='self-start z-1001 my-2 text-base-100'>
                 <CustomLink href="#top" title="Home" className='mr-4'/>
-                <CustomLink href="#about" title="About Us" className='mx-4'/>
-                <CustomLink href="#demo" title="Demo" className='ml-4'/>
+                <CustomLink href="#demo" title="Demo" className='mx-4'/>
+                <CustomLink href="#about" title="About Us" className='ml-4'/>
             </div>
         
             <div className ="flex self-end justify-center flex-wrap">

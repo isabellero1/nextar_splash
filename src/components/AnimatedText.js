@@ -30,8 +30,8 @@ const aniW = {
 
 const AnimatedText = ({text, className =""}) => {
   return (
-    <div className='w-full mx-auto py-2 flex item-center justify-center text-center overflow-hidden'>
-        <motion.h1 className={`inline-block w-full text-dark font-bold capitalize text-6xl ${className}`}
+    <div className='w-full py-2 flex text-center '>
+        <motion.h1 className={`w-full text-dark font-bold capitalize text-6xl ${className}`}
         variants = {ani}
         initial="initial"
         animate="animate">

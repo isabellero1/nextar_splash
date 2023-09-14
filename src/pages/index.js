@@ -13,8 +13,11 @@ import NavBar from '@/components/NavBar'
 import { useRouter} from 'next/router'
 import Link from 'next/link'
 import { LogoIcon } from '@/components/Icon'
+import Logoo from 'public/images/svgs/nextar-logo-black.png'
 import { theme } from '../../tailwind.config'
 import sshot from 'public/images/svgs/spelb.png'
+import netact from 'public/images/svgs/Server Side Screen Rec.gif'
+import wvit from 'public/images/svgs/Web Vitals Screen Rec.gif'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -47,24 +50,21 @@ export default function Home() {
     <>
       
       <div id='main' className='bg-secondary'>
-
+          <div id="top" className='flex bg-accent items-center justify-center text-dark w-full min-h-screen'>
+             
+                    <div className=' h-45 w-45'>
+                    <Image src={Logoo} width={350} height={350}/>
+                      <div className=" my-4 text-base font-medium"> 
+                        <AnimatedText text="{ Nextar }"/>
+                        The sweetest solution for Next.js developers
+                      </div>
+                    </div>
+         
+            </div>
         <div id="inner" className='bg-secondary pt-50'>
-          
-
-          <div id="top" className='flex bg-accent items-center text-dark w-full min-h-screen'>
-            <Layout>
-              <div className = "flex items-center justify-between w-full">
-                <div>
-                <Image src= {sshot} className='w-45 h-25'/>
-                </div>
-                <div className='w-1/2 flex flex-col items-center self-center text-center'>
-                  <AnimatedText text="{ Nextar }" className='!text-center'/>
-                  <p className="my-4 text-base font-medium"> 
-                    The sweetest Next.js solution for developers by developers Amuyla, Andrew, Isabelle, and Julia
-                  </p>
-                </div>
-              </div>
-            </Layout>
+         
+          <div>
+            
           </div>
 
           <AnimatedText text="Demo"/>
@@ -72,14 +72,14 @@ export default function Home() {
           <div id="demo" className='flex bg-secondary items-center text-dark w-full '>
           <Layout>
               <div className = "flex items-center justify-between w-full">
-                <div className='w-1/2 flex flex-col items-center self-center text-center'>
+                <div className='w-1/2 flex flex-col items-center self-center text-center mx-5'>
                   <h2 className='text-bold text-xl'>Network Activity</h2>
                   <p className="my-4 text-base font-medium"> 
-                    The sweetest Next.js solution for developers by developers Amuyla, Andrew, Isabelle, and Julia
+                    Displays all of the requests made from the client side to the server side, displaying the type of request, how long the request takes, and more! Also includes a waterfall visualization of the different requests made
                   </p>
                 </div>
                 <div>
-                <Image src= {sshot} className='w-1280 h-720'/>
+                <Image src={netact} width= {1280} height={720} />
                 </div>
               </div>
             </Layout>
@@ -88,12 +88,12 @@ export default function Home() {
           <Layout>
               <div className = "text-dark flex items-center justify-between w-full">
                 <div>
-                <Image src= {sshot} className='w-1280 h-720'/>
+                <Image src={wvit} width= {1280} height={720} />
                 </div>
                 <div className='w-1/2 flex flex-col items-center self-center text-center'>
                   <h2 className='text-bold text-xl'>Search Engine Optimization</h2>
                   <p className="my-4 text-base font-medium"> 
-                    The sweetest Next.js solution for developers by developers Amuyla, Andrew, Isabelle, and Julia
+                  View your web vital data in real time by endpoint! With Nextar, you can pick and choose which page to observe and view your metrics over time. View your FCP, LCP, FID, CLS in our little dashboard.
                   </p>
                 </div>
               </div>
