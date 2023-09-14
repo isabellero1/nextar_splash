@@ -3,7 +3,7 @@ import Link from 'next/link'
 import {motion} from 'framer-motion'
 import Image from 'next/image'
 import { LogoIcon } from './Icon'
-import nextarLogo from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/nextar-logo-black.png'
+import nextarLogo from 'public/images/svgs/nextar-logo-black.png'
 
 const MotionLink = motion(Link);
 

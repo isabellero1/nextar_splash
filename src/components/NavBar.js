@@ -5,8 +5,8 @@ import Logo from './Logo'
 import { GithubIcon } from './Icon'
 import Image from 'next/image'
 import { motion } from 'framer-motion';
-import githubmark from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/github-mark.png'
-import medium from '/Users/isabellero/Desktop/Splash/NextarSplash/public/images/svgs/Medium-Symbol-Black-RGB@1x.png'
+import githubmark from 'public/images/svgs/github-mark.png'
+import medium from 'public/images/svgs/Medium-Symbol-Black-RGB@1x.png'
 
 export const CustomLink = ({href, title, className=""}) => {
     const router = useRouter();
