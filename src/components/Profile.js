@@ -51,12 +51,12 @@ const Profile = ({theme}) => {
             <div className="card-body">
                 <h1 className="card-title text-s">Andrew Lee</h1>
                 <div className="card-actions justify-center">
-                <a href="https://github.com/anwle115" className="h-30 w-30">
+                <Link href="https://github.com/anwle115" className="h-30 w-30">
                  <GithubIcon />
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-w-lee/" className='h-90 w-90' >
+                </Link>
+                <Link href="https://www.linkedin.com/in/andrew-w-lee/" className='h-90 w-90' >
                  <LinkedInIcon className='h-30 w-30'/>
-                </a>
+                </Link>
                 </div>
             </div>
         </div>
@@ -65,12 +65,12 @@ const Profile = ({theme}) => {
             <div className="card-body">
                 <h1 className="card-title text-s">Amulya Uppala</h1>
                 <div className="card-actions justify-center">
-                  <a href="https://github.com/amoomoo" className="h-30 w-30">
+                  <Link href="https://github.com/amoomoo" className="h-30 w-30">
                   <GithubIcon />
-                  </a>
-                  <a href="/" className='h-90 w-90' >
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/amulya-uppala/" className='h-90 w-90' >
                   <LinkedInIcon className='h-30 w-30'/>
-                  </a>
+                  </Link>
                 </div>
             </div>
         </div>
@@ -79,12 +79,12 @@ const Profile = ({theme}) => {
             <div className="card-body">
                 <h1 className="card-title text-s">Isabelle Ro</h1>
                 <div className="card-actions justify-center">
-                  <a href="https://github.com/isabellero1" className="h-30 w-30">
+                  <Link href="https://github.com/isabellero1" className="h-30 w-30">
                   <GithubIcon />
-                  </a>
-                  <a href="/" className='h-90 w-90' >
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/isabelle-ro-25b009230/" className='h-90 w-90' >
                   <LinkedInIcon className='h-30 w-30'/>
-                  </a>
+                  </Link>
                 </div>
             </div>
         </div>
@@ -93,12 +93,12 @@ const Profile = ({theme}) => {
             <div className="card-body">
                 <h1 className="card-title text-s">Julia Shi</h1>
                 <div className="card-actions justify-center">
-                  <a href="https://github.com/juliajshi" className="h-30 w-30">
+                  <Link href="https://github.com/juliajshi" className="h-30 w-30">
                   <GithubIcon />
-                  </a>
-                  <a href="https://www.linkedin.com/in/juliacshi/" className='h-90 w-90' >
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/juliacshi/" className='h-90 w-90' >
                   <LinkedInIcon className='h-30 w-30'/>
-                  </a>
+                  </Link>
                 </div>
             </div>
         </div>
