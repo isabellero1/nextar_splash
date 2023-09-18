@@ -16,8 +16,8 @@ import { LogoIcon } from '@/components/Icon'
 import Logoo from 'public/images/svgs/nextar-logo-black.png'
 import { theme } from '../../tailwind.config'
 import sshot from 'public/images/svgs/spelb.png'
-import mvitgif from 'public/images/svgs/Web Vitals Screen Rec.gif'
-import mnetgif from 'public/images/svgs/Server Side Screen Rec.gif'
+import mvitgif from 'public/images/svgs/vitals.gif'
+import mnetgif from 'public/images/svgs/netact.gif'
 import ReactPlayer from 'react-player'
 
 const inter = Inter({ subsets: ['latin'] })
