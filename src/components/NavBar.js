@@ -42,7 +42,7 @@ const NavBar = () => {
             </div>
         
             <div className ="flex self-end justify-center flex-wrap">
-                <motion.a href="/" target={"_blank"}
+                <motion.a href="https://github.com/oslabs-beta/nextar/tree/aija/launch_demo_version" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
                 className=" justify-center items-center">
@@ -50,7 +50,7 @@ const NavBar = () => {
                         <Image src={githubmark}/>
                     </div>  
                 </motion.a>
-                <motion.a href="/" target={"_blank"}
+                <motion.a href="https://medium.com/@nextarjs/the-next-sweetest-solution-for-next-js-developers-42ba26fdc21" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
                 className="w-9 h-9 mx-3 my-1 rounded-full items-center justify-center bg-white border-1 m-4">

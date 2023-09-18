@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
 import Layout from '../components/Layout'
@@ -16,8 +16,9 @@ import { LogoIcon } from '@/components/Icon'
 import Logoo from 'public/images/svgs/nextar-logo-black.png'
 import { theme } from '../../tailwind.config'
 import sshot from 'public/images/svgs/spelb.png'
-import netact from 'public/images/svgs/Server Side Screen Rec.gif'
-import wvit from 'public/images/svgs/Web Vitals Screen Rec.gif'
+import mvitgif from 'public/images/svgs/Web Vitals Screen Rec.gif'
+import mnetgif from 'public/images/svgs/Server Side Screen Rec.gif'
+import ReactPlayer from 'react-player'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -53,7 +54,7 @@ export default function Home() {
           <div id="top" className='flex bg-accent items-center justify-center text-dark w-full min-h-screen'>
              
                     <div className=' h-45 w-45'>
-                    <Image src={Logoo} width={350} height={350}/>
+                    <Image src = {Logoo} width={350} height={350}/>
                       <div className=" my-4 text-base font-medium"> 
                         <AnimatedText text="{ Nextar }"/>
                         The sweetest solution for Next.js developers
@@ -79,7 +80,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                <Image src={netact} width= {1280} height={720} />
+                <Image src={mnetgif} width= {1280} height={720} />
                 </div>
               </div>
             </Layout>
@@ -88,7 +89,7 @@ export default function Home() {
           <Layout>
               <div className = "text-dark flex items-center justify-between w-full">
                 <div>
-                <Image src={wvit} width= {1280} height={720} />
+                <Image src={mvitgif} width= {1280} height={720} />
                 </div>
                 <div className='w-1/2 flex flex-col items-center self-center text-center'>
                   <h2 className='text-bold text-xl'>Search Engine Optimization</h2>
